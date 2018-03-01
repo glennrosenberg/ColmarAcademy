@@ -1,0 +1,109 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: slategray;
+}
+
+h1, h2 {
+  color: dimgray;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* header section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin-left: 24px;
+  font-weight: 500;
+}
+
+.colmar {
+  color: dimgray;
+}
+
+.academy {
+  color: gainsboro;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  background-color: turquoise;
+  margin: auto 1.5rem;
+}
+
+nav ul li {
+  background-color: white;
+  padding: 1.5rem 0;
+}
+
+/* put stupid looking turquoise shim between nav elements */
+
+nav ul li:nth-child(1n + 2) {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: slategray;
+  text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  background-color: gainsboro;
+}
+
+.wide {
+  margin: 2rem; 1.5rem;
+  width: 60%;
+  border: 1px solid red;
+}
+
+.wide img {
+  width: 100%;
+  height: auto;
+}
+
+.narrow {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.button {
+  background-color: dimgray;
+  color: white;
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+h1, .button {
+  margin: 1.5rem 0;
+}
