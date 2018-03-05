@@ -1,19 +1,32 @@
 html {
   font-size: 16px;
-  font-family: sans-serif;
-  color: slategray;
+  font-family: 'Roboto', sans-serif;
+  color: hsl(0, 0%, 60%);
+  letter-spacing: 1px;
 }
 
 h1, h2 {
-  color: dimgray;
+  color: hsl(0, 0%, 30%);
+  font-weight: bold;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.75rem;
 }
 
 h2 {
   font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  color: hsl(0, 0%, 40%);
+  font-weight: bolder;
+}
+
+p {
+  line-height: 1.5;
 }
 
 /* header section */
@@ -35,7 +48,7 @@ header {
 }
 
 .colmar {
-  color: dimgray;
+  color: hsl(0, 0%, 30%);
 }
 
 .academy {
@@ -74,9 +87,8 @@ nav a {
 }
 
 .wide {
-  margin: 2rem; 1.5rem;
+  margin: 1.5rem;
   width: 60%;
-  border: 1px solid red;
 }
 
 .wide img {
@@ -86,7 +98,9 @@ nav a {
 
 .narrow {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
 }
 
 .container {
@@ -97,13 +111,58 @@ nav a {
 }
 
 .button {
-  background-color: dimgray;
+  background-color: hsl(0, 0%, 30%);
   color: white;
   padding: 0.5rem 0;
   width: 100%;
   text-align: center;
 }
 
+.button h3 {
+  font-weight: normal;
+}
+
 h1, .button {
   margin: 1.5rem 0;
+}
+
+/* Information section */
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.info p {
+  font-size: .75rem;
+  margin: 0.5rem 2rem 0.5rem 0;
+}
+
+.citation {
+  margin: 2rem 0 2rem 0;
+  color: hsl(0, 0%, 30%);
+}
+
+.infobite {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid gainsboro;
+}
+
+.infobite img {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.infobite a {
+  text-decoration: none;
+  color: lightskyblue;
+  font-size: .75rem;
+  margin-top: 1.5rem;
+}
+
+.oliver {
+  background-color: gainsboro;
 }
