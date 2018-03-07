@@ -34,13 +34,13 @@ h1 {
 
 h2 {
   font-size: 1.9rem;
-  padding: 2rem 0;
+  padding: 2rem 0 1.5rem 0;
 }
 
 h3 {
   color: hsl(0, 0%, 40%);
   font-weight: bolder;
-  padding: 1rem 0 0.5rem 0;
+  padding-bottom: 0.5rem;
 }
 
 h4 {
@@ -192,10 +192,10 @@ nav a {
 .infobitetext a {
   color: lightskyblue;
   font-size: 0.75rem;
-  padding: 0.5rem 0 1rem 0;
+  padding-top: 0.5rem;
 }
 
-.oliver {
+.highlight {
   background-color: gainsboro;
 }
 
@@ -206,13 +206,13 @@ nav a {
   flex-direction: column;
   align-items: center;
   background-color: hsl(0, 0%, 90%);
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+  padding: 0 3.5rem;
 }
 
-.collection {
+.schoolcollection {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 0.5rem;
 }
 
 .school {
@@ -220,7 +220,7 @@ nav a {
   flex-direction: column;
   width: 29.5%;
   height: auto;
-  margin: 1rem;
+  margin: 0 1rem 2rem 1rem;
   background-color: white;
 }
 
@@ -231,4 +231,59 @@ nav a {
 
 .school .text {
   padding: 1rem;
+}
+
+/* Thesis section */
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.thesiscollection {
+  display: flex;
+  align-items: flex-start;
+}
+
+.thesiscollection .wide {
+  padding-top: 0;
+}
+
+.thesiscollection video {
+  max-width: 100%;
+  height: auto;
+}
+
+.thesis h3 {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+/* Footer section */
+
+footer {
+  display: flex;
+  height: 5rem;
+  width: 95%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 1rem 0rem 1.5rem;
+  border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.disclosure ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer p, footer a {
+  color: hsl(0, 0%, 60%);
+  font-size: 0.7rem;
+  padding-right: 0.25rem;
 }
