@@ -34,17 +34,21 @@ h1 {
 
 h2 {
   font-size: 1.9rem;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  padding: 2rem 0;
 }
 
 h3 {
   color: hsl(0, 0%, 40%);
   font-weight: bolder;
+  padding: 1rem 0 0.5rem 0;
+}
+
+h4 {
+  font-size: 0.85rem;
+  padding-bottom: 0.5rem;
 }
 
 p {
-  line-height: 1.5;
   font-size: 0.75rem;
 }
 
@@ -110,7 +114,10 @@ nav a {
 }
 
 .wide {
-  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 1.5rem;
   width: 60%;
 }
 
@@ -137,12 +144,9 @@ nav a {
   background-color: hsl(0, 0%, 30%);
   color: white;
   padding: 0.5rem 0;
+  margin-top: 0.5rem;
   width: 100%;
   text-align: center;
-}
-
-h1, .button {
-  margin: 1.5rem 0;
 }
 
 /* Information section */
@@ -152,13 +156,14 @@ h1, .button {
   justify-content: flex-start;
 }
 
-.info p {
-  margin: 0.5rem 2rem 0.5rem 0;
+.info h2 {
+  padding-bottom: 1rem;
 }
 
 .citation {
-  margin: 2rem 0 2rem 0;
-  color: hsl(0, 0%, 30%);
+  padding-top: 2rem;
+  font-size: 0.7rem;
+  color: hsl(0, 0%, 35%);
 }
 
 .info .narrow {
@@ -179,10 +184,15 @@ h1, .button {
   margin: 1rem;
 }
 
-.infobite a {
+.infobitetext {
+  display: flex;
+  flex-direction: column;
+}
+
+.infobitetext a {
   color: lightskyblue;
-  font-size: .75rem;
-  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  padding: 0.5rem 0 1rem 0;
 }
 
 .oliver {
@@ -220,5 +230,5 @@ h1, .button {
 }
 
 .school .text {
-  margin: 1rem;
+  padding: 1rem;
 }
