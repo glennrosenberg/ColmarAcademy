@@ -54,20 +54,19 @@
 
   .info .narrow {
     width: 100%;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 0 2rem 0;
   }
 
   .infobite {
-    /* flex-direction: column;
-    align-items: flex-start; */
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     border: none;
   }
 
   img.site480 {
-    width: 100%;
-    /* padding 1rem; */
+    width: 93%;  /* not happy with this as I think I have cludged the outcome */
+    padding 1rem;
   }
 
   .infobitetext {
