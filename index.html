@@ -7,25 +7,36 @@
   <title>Colmar Academy Home</title>
   <link rel="stylesheet" href="./resources/css/reset.css" type="text/css" />
   <link rel="stylesheet" href="./resources/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="./resources/css/site480.css" type="text/css" />
 </head>
 <body>
   <div class="main">
     <div class="site">
-      <header>
-        <div class="logo">
+      <div class="site960">
+        <header>
+          <div class="logo">
+            <img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo" />
+            <p class="colmar">COLMAR</p>
+            <p class="academy">ACADEMY</p>
+          </div>  <!-- logo -->
+          <nav>
+            <ul>
+              <li><a href="#">On campus</a></li>
+              <li><a href="#">Online</a></li>
+              <li><a href="#">For companies</a></li>
+              <li><a href="#">Sign in</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>  <!-- site960 -->
+      <div class="site480">
+        <header>
           <img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo" />
-          <p class="colmar">COLMAR</p>
-          <p class="academy">ACADEMY</p>
-        </div>  <!-- logo -->
-        <nav>
-          <ul>
-            <li><a href="#">On campus</a></li>
-            <li><a href="#">Online</a></li>
-            <li><a href="#">For companies</a></li>
-            <li><a href="#">Sign in</a></li>
-          </ul>
-        </nav>
-      </header>
+          <img src="./resources/images/ic-on-campus.svg" alt="On campus icon" />
+          <img src="./resources/images/ic-online.svg" alt="Online icon" />
+          <img src="./resources/images/ic-login.svg" alt="Login icon" />
+        </header>
+      </div>
       <div class="banner">
         <div class="wide">
           <img src="./resources/images/banner.jpg" alt="Students studying at a picnic table" />
@@ -35,12 +46,11 @@
             <h1>Learn something new everyday</h1>
             <h3>Lorem ipsum dolor sit amet, consectetur apdipiscing elit.</h3>
             <a href="#" class="button">Start here</a>
-            <!-- <p class="button">Start here</p> -->
           </div>  <!-- container -->
         </div>  <!-- narrow -->
       </div>  <!-- banner -->
       <div class="info">
-        <div class="wide">
+        <div class="wide site960">
           <img src="./resources/images/information-main.jpg" alt="Student reading a text book in a park" />
           <h2>It doesn't hurt to keep practicing</h2>
           <div class="quote">
@@ -52,10 +62,11 @@
           <div class="citation">
             <p>Emanuel, Sr Strategist at Hiring.com</p>
           </div>  <!-- citation -->
-        </div>  <!-- wide -->
+        </div>  <!-- wide site960-->
         <div class="narrow">
           <div class="infobite">
-            <img src="./resources/images/information-orientation.jpg" alt="Students on a path" />
+            <img class="site960" src="./resources/images/information-orientation.jpg" alt="Students on a path" />
+            <img class="site480" src="./resources/images/information-orientation-mobile.jpg" alt="Students on a path" />
             <div class="infobitetext">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -63,7 +74,8 @@
             </div>  <!-- infobitetext -->
           </div>  <!-- infobite -->
           <div class="infobite">
-            <img src="./resources/images/information-campus.jpg" alt="Study area" />
+            <img class="site960" src="./resources/images/information-campus.jpg" alt="Study area" />
+            <img class="site480" src="./resources/images/information-campus-mobile.jpg" alt="Study area" />
             <div class="infobitetext">
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
@@ -71,7 +83,8 @@
             </div>  <!-- infobitetext -->
           </div>  <!-- infobite -->
           <div class="infobite highlight">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="Oliver Sack headshot" />
+            <img class="site960" src="./resources/images/information-guest-lecture.jpg" alt="Oliver Sack headshot" />
+            <img class="site480" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack headshot" />
             <div class="infobitetext">
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -84,7 +97,7 @@
         <h2>Start learning</h2>
         <div class="schoolcollection">
           <div class="school">
-            <img src="./resources/images/course-software.jpg" alt="Two screen computer workstation" />
+            <img class="site960" src="./resources/images/course-software.jpg" alt="Two screen computer workstation" />
             <div class="text">
               <h3>Software Engineering</h3>
               <h4>COURSES</h4>
@@ -92,7 +105,7 @@
             </div>  <!-- text -->
           </div>
           <div class="school">
-            <img src="./resources/images/course-computer-art.jpg" alt="iPhone app" />
+            <img class="site960" src="./resources/images/course-computer-art.jpg" alt="iPhone app" />
             <div class="text">
               <h3>Computer Art</h3>
               <h4>COURSES</h4>
@@ -100,7 +113,7 @@
             </div>  <!-- text -->
           </div>  <!-- school -->
           <div class="school">
-            <img src="./resources/images/course-design.jpg" alt="Old school camera" />
+            <img class="site960" src="./resources/images/course-design.jpg" alt="Old school camera" />
             <div class="text">
               <h3>Design</h3>
               <h4>COURSES</h4>
@@ -108,7 +121,7 @@
             </div>  <!-- text -->
           </div>  <!-- school -->
           <div class="school">
-            <img src="./resources/images/course-data.jpg" alt="Laptop running analytics application" />
+            <img class="site960" src="./resources/images/course-data.jpg" alt="Laptop running analytics application" />
             <div class="text">
               <h3>Data</h3>
               <h4>COURSES</h4>
@@ -116,7 +129,7 @@
             </div>  <!-- text -->
           </div>  <!-- school -->
           <div class="school">
-            <img src="./resources/images/course-business.jpg" alt="Chess pieces" />
+            <img class="site960" src="./resources/images/course-business.jpg" alt="Chess pieces" />
             <div class="text">
               <h3>Business</h3>
               <h4>COURSES</h4>
@@ -124,7 +137,7 @@
             </div>  <!-- text -->
           </div>  <!-- school -->
           <div class="school">
-            <img src="./resources/images/course-marketing.jpg" alt="Apple watch" />
+            <img class="site960" src="./resources/images/course-marketing.jpg" alt="Apple watch" />
             <div class="text">
               <h3>Marketing</h3>
               <h4>COURSES</h4>
@@ -143,13 +156,13 @@
                 Your browser does not support the video tag
               </video>
             </div>
-            <h3>Reimagine urban</h3>
-            <p>"Curabitur vitae libero in ipsum porttitor sonsequat. Aliquam et commodo
+            <h3 class="site960">Reimagine urban</h3>
+            <p class="site960">"Curabitur vitae libero in ipsum porttitor sonsequat. Aliquam et commodo
                 lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex.
                 Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
             </p>
           </div>  <!-- wide -->
-          <div class="narrow">
+          <div class="narrow site960">
             <div class="infobite highlight">
               <img src="./resources/images/thesis-fisma.jpg" alt="Design ideas">
               <div class="infobitetext">
@@ -171,14 +184,14 @@
         <div class="copyright">
           <p>&copy 2016 Colmar Academy All rights reserved</p>
         </div>  <!-- copyright -->
-        <div class="disclosure">
+        <div class="disclosure site960">
           <ul>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Privacy</a></li>
           </ul>
         </div>  <!-- disclosure -->
       </footer>
-    </div>  <!-- site -->
+    </div>  <!-- site site960 -->
   </div>  <!-- main -->
 </body>
 </html>
