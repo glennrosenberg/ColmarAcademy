@@ -106,8 +106,14 @@
     font-size: 1.5rem;
   }
 
-  .school h4, .school p {
-    display: none;
+  .courselist {
+    height: 0;
+    overflow: hidden;
+    /* display: none; */
+  }
+
+  .school:active .courselist {
+    height: 100%;
   }
 
   p, .infobitetext a {

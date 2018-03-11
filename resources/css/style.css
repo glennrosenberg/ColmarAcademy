@@ -211,18 +211,21 @@ nav a {
   align-items: center;
   background-color: hsl(0, 0%, 90%);
   padding: 0 3.5rem;
+  border: 1px solid purple;
 }
 
 .schoolcollection {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding-top: 0.5rem;
+  border: 1px solid red;
 }
 
 .school {
   display: flex;
   flex-direction: column;
-  width: 29.5%;
+  flex-basis: 29.5%;
   height: auto;
   margin: 0 1rem 2rem 1rem;
   background-color: white;
@@ -235,6 +238,7 @@ nav a {
 
 .text {
   padding: 1rem;
+  color: hsl(0, 0%, 60%);
 }
 
 /* Thesis section */
