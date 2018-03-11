@@ -109,11 +109,11 @@
   .courselist {
     height: 0;
     overflow: hidden;
-    /* display: none; */
   }
 
-  .school:active .courselist {
+  .school:hover .courselist {
     height: 100%;
+    transition: height 2s ease-in-out 0.5s;
   }
 
   p, .infobitetext a {
