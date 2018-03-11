@@ -281,6 +281,7 @@ footer {
 .copyright {
   display: flex;
   justify-content: flex-start;
+  width: 100%;
 }
 
 .disclosure ul {
