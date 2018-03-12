@@ -266,6 +266,24 @@ nav a {
   padding: 1.5rem 0 0.5rem 0;
 }
 
+/* Social media section */
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.sociallinks {
+  padding-top: 1rem;
+}
+
+.sociallinks a {
+  color: hsl(0, 0%, 60%);
+  padding: 0 1rem;
+}
+
 /* Footer section */
 
 footer {
