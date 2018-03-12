@@ -9,11 +9,10 @@
   <link rel="stylesheet" href="./resources/css/style.css" type="text/css" />
   <link rel="stylesheet" href="./resources/css/site480.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
-  <!-- <link rel="shortcut icon" href="./resources/images/favicon.ico" type="image/x-icon"> -->
   <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <div class="main">
+  <div class="main" role="presentation">
     <div class="site">
       <div class="site960">
         <header>
@@ -22,7 +21,7 @@
             <p class="colmar">COLMAR</p>
             <p class="academy">ACADEMY</p>
           </div>  <!-- logo -->
-          <nav>
+          <nav role="presentation">
             <ul>
               <li><a href="#">On campus</a></li>
               <li><a href="#">Online</a></li>
@@ -35,9 +34,9 @@
       <div class="site480">
         <header>
           <img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo" />
-          <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus icon" /></a>
-          <a href="#"><img src="./resources/images/ic-online.svg" alt="Online icon" /></a>
-          <a href="#"><img src="./resources/images/ic-login.svg" alt="Login icon" /></a>
+          <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus navigation icon" /></a>
+          <a href="#"><img src="./resources/images/ic-online.svg" alt="Online navigation icon" /></a>
+          <a href="#"><img src="./resources/images/ic-login.svg" alt="Login navigation icon" /></a>
         </header>
       </div>
       <div class="banner">
@@ -161,13 +160,13 @@
           </a>  <!-- school -->
         </div>  <!-- collection -->
       </div>  <!-- courses -->
-      <div class="thesis">
+      <div class="thesis" id="thesisexhibit">
         <h2>Thesis exhibit</h2>
         <div class="thesiscollection">
           <div class="wide">
             <div class="thesisvideo">
               <video controls>
-                <source src="./resources/videos/thesis.mp4" type="video/mp4">
+                <source src="./resources/videos/thesis.mp4" type="video/mp4" alt="Reimagine Urban thesis video - timelapse animation of a building from dawn to night"/>
                 Your browser does not support the video tag
               </video>
             </div>
@@ -178,28 +177,28 @@
             </p>
           </div>  <!-- wide -->
           <div class="narrow site960">
-            <div class="infobite highlight">
-              <img src="./resources/images/thesis-fisma.jpg" alt="Design ideas">
-              <div class="infobitetext">
-                <h3>Fisma: Design and Prototype</h3>
+            <a class="infobite highlight" href="#thesisexhibit">
+              <img src="./resources/images/thesis-fisma.jpg" alt="Design ideas" />
+              <div class="text">
+                <h3 aria-label="Thesis title">Fisma: Design and Prototype</h3>
                 <p>Designer showcase of new prototype product</p>
               </div>  <!-- infobitetext -->
-            </div>  <!-- infobite -->
-            <div class="infobite">
-              <img src="./resources/images/thesis-now-and-then.jpg" alt="New York skyline">
-              <div class="infobitetext">
-                <h3>Now and then</h3>
+            </a>  <!-- infobite -->
+            <a class="infobite" href="#thesisexhibit">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="New York skyline" />
+              <div class="text">
+                <h3 aria-label="Thesis title">Now and then</h3>
                 <p>Research study about New York</p>
               </div>  <!-- infobitetext -->
-            </div>  <!-- infobite -->
+            </a>  <!-- infobite -->
           </div>  <!-- narrow -->
         </div>  <!-- thesiscollection -->
       </div>  <!-- thesis -->
       <div class="social">
         <div class="sociallinks">
-          <a href="./site/social.html"><i class="fa fa-instagram"></i></a>
-          <a href="./site/social.html"><i class="fa fa-facebook"></i></a>
-          <a href="./site/social.html"><i class="fa fa-twitter"></i></a>
+          <a href="./site/social.html"><i class="fa fa-instagram" aria-label="Instagram social media link icon"></i></a>
+          <a href="./site/social.html"><i class="fa fa-facebook" aria-label="Facebook social media link icon"></i></a>
+          <a href="./site/social.html"><i class="fa fa-twitter" aria-label="Twitter social media link icon"></i></a>
         </div>
         <h3>Follow us!</h3>
       </div>
